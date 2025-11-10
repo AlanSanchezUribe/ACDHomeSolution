@@ -5,6 +5,6 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   base: "/ACDHomeSolution/",
-  build: { outDir: "../docs", emptyOutDir: true },
+  //build: { outDir: "../docs", emptyOutDir: true },
   plugins: [react(), tailwindcss()],
 });

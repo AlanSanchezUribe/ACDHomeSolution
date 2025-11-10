@@ -5,13 +5,14 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { motion } from "framer-motion";
 
+import doorImg from "../assets/hero/door-installation.jpg";
+import windowImg from "../assets/hero/window-repair.jpg";
+import hardwareImg from "../assets/hero/hardware-install.jpg";
+
 const slides = [
-  { src: "/src/assets/hero/door-installation.jpg", alt: "Door installation" },
-  { src: "/src/assets/hero/window-repair.jpg", alt: "Window repair" },
-  {
-    src: "/src/assets/hero/hardware-install.jpg",
-    alt: "Hardware installation",
-  },
+  { src: doorImg, alt: "Door installation" },
+  { src: windowImg, alt: "Window repair" },
+  { src: hardwareImg, alt: "Hardware installation" },
 ];
 
 export default function HeroSlider() {
